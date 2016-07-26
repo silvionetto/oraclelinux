@@ -14,4 +14,6 @@ yum install libstdc++-4.4.4-13.el6 &&
 yum install libstdc++-devel-4.4.4-13.el6 && 
 yum install libaio-0.3.107-10.el6 &&
 yum install libaio-devel-0.3.107-10.el6 &&
-yum install sysstat-9.0.4-11.el6 &&
+yum install sysstat-9.0.4-11.el6 
+
+exit $?

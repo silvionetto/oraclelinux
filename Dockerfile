@@ -1,4 +1,4 @@
-FROM oracle/oraclelinux
+FROM silvionetto/oraclelinux:1.1
 
 MAINTAINER Silvio Netto <silvio.netto@gmail.com>
 

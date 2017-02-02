@@ -22,6 +22,7 @@ yum install -y unixODBC-devel
 yum install -y tar
 yum install -y less
 yum install -y sudo
+yum install -y unzip
 
 source /root/.bash_profile
 
@@ -36,6 +37,6 @@ chmod -R 775 /oracledb/app/
 mkdir -p /oracledb/tmp/
 chmod a+wr /oracledb/tmp
 
-unzip V46095-01_1of2.zip
-unzip V46095-01_2of2.zip 
-rm V46095-01_1of2.zip V46095-01_2of2.zip
+unzip oraclelinux/V46095-01_1of2.zip
+unzip oraclelinux/V46095-01_2of2.zip 
+rm oraclelinux/V46095-01_1of2.zip oraclelinux/V46095-01_2of2.zip
